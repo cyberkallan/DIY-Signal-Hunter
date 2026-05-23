@@ -33,7 +33,7 @@ Built completely with homemade components, portable batteries, copper wire anten
 ## DIY Field Setup
 
 <p align="center">
-  <img src="media/diypov1.jpg" width="30%" />
+  <img src="media/setupguid.jpg" width="30%" />
   <img src="media/diypov2.jpg" width="30%" />
   <img src="media/diypov3.jpg" width="30%" />
 </p>
