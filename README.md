@@ -159,6 +159,169 @@ This allows outdoor field testing.
 Launch HexPulse firmware and begin signal testing.
 
 ---
+# Bonus: Extended Range Setup
+
+This setup was upgraded using a bigger DIY antenna, external power delivery, and additional RF amplification modules for improved long-range signal testing.
+
+The goal of this upgrade was:
+- Better signal capture
+- Longer scanning distance
+- Stable power delivery
+- Improved RF sensitivity
+- Portable field testing
+
+---
+
+# Extended DIY Antenna
+
+The standard antenna was expanded using thicker copper wire and larger dimensions.
+<p align="center">
+  <img src="media/extended.png" width="80%" />
+</p>
+---
+
+## Improvements Made
+
+- Increased antenna size
+- Added more copper wire elements
+- Larger reflector plate
+- Wider signal capture area
+- Better directional testing
+
+## Materials Used
+
+| Material | Purpose |
+|---|---|
+| Thick Copper Wire | Signal reception |
+| Aluminium Foil Reflector | Signal direction |
+| Hot Glue / Tape | Stability |
+| Plastic Support | Structure |
+
+---
+
+# External Power Setup
+
+To improve stability during long-range scanning, the setup was powered using an external power bank.
+
+## Why External Power?
+
+ESP32 + amplifiers can consume more power during active scanning.
+
+Using a power bank helps:
+- Prevent sudden shutdowns
+- Keep voltage stable
+- Improve amplifier performance
+- Increase portability
+
+## Power Components
+
+| Component | Details |
+|---|---|
+| Power Bank | 5V Output |
+| Step-Up / Regulator | Stable voltage |
+| USB Cable | Power delivery |
+| Battery Pack | Optional portable power |
+
+---
+
+# Signal Amplifier Modules
+
+Additional RF amplifier modules were added between the antenna and ESP32.
+
+These modules help amplify weak RF signals before processing.
+
+## Amplifier Benefits
+
+- Better weak signal detection
+- Increased reception range
+- Improved long-distance testing
+- Cleaner signal processing
+
+---
+
+# Recommended Amplifier Types
+
+| Module | Purpose |
+|---|---|
+| LNA Amplifier | Boost weak RF signals |
+| Wi-Fi Amplifier | Improve 2.4GHz reception |
+| SAW Filter | Cleaner signals |
+
+---
+
+# Example Signal Flow
+
+```text
+DIY Antenna
+     ↓
+RF Amplifier
+     ↓
+ESP32 + HexPulse
+     ↓
+HexMind AI Analysis
+```
+
+---
+
+# Real World Field Testing
+
+This setup was tested in open outdoor environments for:
+- Long-range Wi-Fi scanning
+- RF signal analysis
+- Portable field testing
+- Directional antenna experiments
+
+---
+
+# Tips For Better Range
+
+- Use thicker copper wire
+- Keep antenna elevated
+- Use short cables
+- Avoid signal obstacles
+- Use stable external power
+- Point reflector toward target direction
+
+---
+
+# Stability Notes
+
+Large antennas and amplifiers may introduce:
+- Noise
+- Voltage drops
+- Unstable readings
+
+To reduce issues:
+- Use proper grounding
+- Keep wiring clean
+- Avoid loose connections
+- Use quality power modules
+
+---
+
+# Portable Field Build
+
+This setup was designed to remain:
+- Lightweight
+- Portable
+- Low-cost
+- DIY friendly
+
+The entire build can be powered directly from a power bank during outdoor testing.
+
+---
+
+# Educational Notice
+
+This project is built strictly for:
+- Educational purposes
+- Research
+- Authorized RF testing
+- Hardware experimentation
+
+Do NOT use this setup on networks or devices without permission.
+
+Always follow local laws and ethical guidelines.
 
 # Firmware 🔥
 
