@@ -39,7 +39,7 @@ Built completely with homemade components, portable batteries, copper wire anten
 ## DIY anteena Guid
 
 <p align="center">
-  <img src="media/anteenaguid.png" width="80%" />
+  <img src="media/anteenaguid.jpg" width="80%" />
 </p> 
 
 ## Wiring Diagram 
