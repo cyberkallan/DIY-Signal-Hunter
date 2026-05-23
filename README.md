@@ -174,36 +174,6 @@ https://github.com/cyberkallan/hexmind
 
 ---
 
-# Folder Structure 📁
-
-```text
-HexPulse-DIY-RF-Lab/
-│
-├── media/
-│   ├── banner.jpg
-│   ├── diypov1.jpg
-│   ├── diypov2.jpg
-│   └── diypov3.jpg
-│
-├── docs/
-│   ├── setup-guide.md
-│   ├── diy-antenna.md
-│   ├── firmware.md
-│   └── troubleshooting.md
-│
-├── hardware/
-│   ├── components.md
-│   └── wiring.md
-│
-├── scripts/
-│
-├── README.md
-├── LICENSE
-└── .gitignore
-```
-
----
-
 # Installation 🚀
 
 ## Clone Repository
@@ -227,7 +197,8 @@ pip install esptool
 ```bash
 esptool.py --chip esp32 write_flash 0x0000 firmware.bin
 ```
-
+## online flash 
+### https://pulse.hexmind.space/
 ---
 
 # Use Cases 🌍
