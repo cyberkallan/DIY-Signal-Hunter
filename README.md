@@ -34,9 +34,25 @@ Built completely with homemade components, portable batteries, copper wire anten
 
 <p align="center">
   <img src="media/setupguid.png" width="80%" />
-  <img src="media/diypov2.jpg" width="30%" />
 </p>
 
+## DIY anteena Guid
+
+<p align="center">
+  <img src="media/anteenaguid.png" width="80%" />
+</p> 
+
+## Wiring Diagram 
+
+<p align="center">
+  <img src="media/wiringguid.png" width="80%" />
+</p>
+
+## Components
+
+<p align="center">
+  <img src="media/components.png" width="80%" />
+</p>
 ---
 
 # Features ⚡
