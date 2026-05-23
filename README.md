@@ -1,7 +1,7 @@
 # HEXPULSE DIY RF LAB
 
 <p align="center">
-  <img src="media/banner.jpg" width="100%" />
+  <img src="media/banner.png" width="100%" />
 </p>
 
 <p align="center">
